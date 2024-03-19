@@ -43,3 +43,76 @@ body{
     float: left;
     margin-right: 5px;
 }
+
+table.table tr th, table.table tr td {
+    border-color: #e9e9e9;
+    padding: 12px 15px;
+    vertical-align: middle;
+
+}
+
+
+table.table tr th:first-child{
+/* primeira coluna de uma tabela */
+    width: 60px;
+}
+
+table.table td:last-child{
+    width: 100px;
+}
+
+table.table td:last-child i {
+    opacity: 0.9;
+    margin: 0.5px;
+}
+
+table.table td a{
+    font-weight: bold;
+    color: #566787;
+    display: inline-block;
+    text-decoration: none;
+    outline: none !important;
+}
+
+table.table td a.edit{
+    color: #f44556;
+}
+
+table.table td a:hover{
+    color: #2196f3;
+}
+
+.pagination{
+    float: right;
+}
+
+.pagination li a{
+    border: none;
+    font-size: 15px;
+    min-width: 30px;
+    min-height: 30px;
+    color: #999;
+    margin: 0 2px;
+    line-height: 30px;
+    border-radius: 2px;
+    text-align: center;
+    padding: 0 6px;
+}
+
+.pagination li a:hover{
+    color: #666;
+}
+
+.pagination li.active a, .pagination li.active a.page-link{
+    background-color: #2196f3;
+}
+
+.pagination li.active a:hover{
+    background-color: #2196f9;
+}
+
+.hint-text{
+    float: left;
+    margin-top: 10px;
+    font-size: 15px;
+}
